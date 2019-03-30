@@ -1,0 +1,59 @@
+body {
+  background-color: #f4f7f6;
+  margin: 0 auto;
+}
+
+nav {
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  height: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr 1fr 2fr;
+}
+
+.menu-button {
+  height: 20px;
+  padding: 40px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f7f6;
+}
+
+.finder {
+  height: 20px;
+  padding: 40px;
+  background-color: #f4f7f6;
+  border: 1px solid #e5e5e5;
+}
+
+.finder-image {
+  height: 26px;
+}
+
+.web-name {
+  height: 20px;
+  padding: 40px;
+  background-color: #f4f7f6;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+}
+
+.register-login {
+  height: 20px;
+  padding: 40px;
+  background-color: #f4f7f6;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+}
+
+.submit-button {
+  height: 20px;
+  padding: 40px;
+  background-color: #67f29f;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+}
+
+main {
+  margin-top: 500px;
+}
