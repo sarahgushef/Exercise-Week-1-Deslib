@@ -87,3 +87,15 @@ nav {
   height: 165px;
   background-color: white;
 }
+
+.load-more-button {
+  margin: 50px 640px 50px 640px;
+  padding: 10px 10px 10px 10px;
+  color: grey;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+}
+
+.footer {
+  background-color: white;
+}
