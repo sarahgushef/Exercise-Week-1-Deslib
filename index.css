@@ -74,19 +74,40 @@ body {
 }
 
 .card {
-  width: 365px;
-  height: 380px;
-  padding: 0px 30px 0px 30px;
+  width: 404px;
+  height: 433px;
+  background-color: white;
 }
 
 .thumbnail-pic {
-  width: 365px;
+  width: 404px;
+  height: 255px;
 }
 
 .description-box {
-  width: 365px;
+  width: 360px;
   height: 165px;
   background-color: white;
+}
+
+.description-box-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.website-name {
+  padding-bottom: 30px;
+}
+
+.country-and-date span:nth-child(1) {
+  padding-right: 105px;
+}
+
+.description-box-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 20px 30px;
 }
 
 .load-more-button {
