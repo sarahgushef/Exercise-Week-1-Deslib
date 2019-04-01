@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- Start of Navigation -->
-    <nav>
+    <nav class="navigation">
       <div class="menu-button">
         <span>MENU</span>
       </div>
@@ -32,7 +32,7 @@
     <!-- Start of Login/Register Modal -->
     <div id="login-register-modal" class="modal">
       <div class="modal-content">
-        <nav>
+        <nav class="modal-navigation">
           <ul>
             <li>
               <b>Sign in to continue</b>
@@ -43,27 +43,24 @@
           </ul>
         </nav>
 
-        <form>
-          <input type="text" placeholder="Email or username"/>
+        <form class="form-login">
+          <input type="text" placeholder="Email or username" class="input-text-box"/>
           <br/>
 
-          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Password" class="input-text-box"/>
           <br/><br>
 
           <input type="checkbox"/> Keep me logged in 
           <br/><br/>
 
-          <button type="button"> Login Now </button>
-        </form>
+          <button type="button" class="button-login"> Login Now </button>
 
-        <div>
-          <b>Forgot your password?</b>
-        </div>
+          <div class="forgot-your-password">
+            <b>Forgot your password?</b>
+          </div>
 
-
-        <div>
           <span>Or sign in with</span>
-
+          
           <ul class="social-media-icons">
             </ulclass>
             <li>
@@ -82,9 +79,9 @@
               </a>
             </li>
           </ul>
-        </div>
+          
+        </form>
       </div>
-    </div>
     <!-- End of Login/Register Modal -->
 
     <!-- Start of Filter Bar -->

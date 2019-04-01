@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
 }
 
-nav {
+.navigation {
   position: fixed;
   margin: 0 auto;
   width: 100%;
@@ -137,4 +137,52 @@ nav {
 .socmed-icon {
   width: 30px;
   height: 30px;
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  padding: 40px 400px 40px 400px;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #f4f7f6;
+  height: 605px;
+  width: 650px;
+}
+
+.modal-navigation ul {
+  display: flex;
+}
+
+.modal-navigation li {
+  display: inline;
+  padding: 60px;
+}
+
+.form-login {
+  padding: 0px 100px 50px 120px;
+}
+
+.input-text-box {
+  width: 400px;
+  height: 50px;
+}
+
+.button-login {
+  width: 400px;
+  height: 50px;
+  background-color: #67f29f;
+}
+
+.forgot-your-password {
+  width: 400px;
+  height: 50px;
+  text-align: center;
+}
+
+.footer-social-media-icons {
+  padding: 0px 100px 50px 100px;
 }
